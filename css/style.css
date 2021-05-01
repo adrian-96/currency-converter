@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(244, 250, 255);
+    font-family: 'Lato', sans-serif;
+    color: rgb(107, 107, 107);
+    font-size: 17px;
+}
+
+.header {
+    text-align: center;
+    color: rgb(61, 139, 202);
+}
+
+.button {
+    background-color: #517ac7;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 30px;
+    margin: 10px 10px 5px 0;
+    border: none;
+}
+
+.button:hover {
+    background-color: hsl(219, 51%, 50%);
+}
+
+.button:active {
+    background-color: hsl(219, 51%, 45%);
+}
