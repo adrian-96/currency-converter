@@ -8,7 +8,9 @@ html {
 
 body {
     margin: 0 auto;
-    background-color: rgb(244, 250, 255);
+    background-image: url("../images/background-image.png");
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Lato', sans-serif;
     color: rgb(107, 107, 107);
     font-size: 17px;
