@@ -37,5 +37,5 @@ formElement.addEventListener("submit", (event) => {
 });
 
 formElement.addEventListener("reset", () => {
-    resultElement.innerText = ``;
+    resultElement.innerText = `...`;
 });

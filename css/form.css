@@ -6,12 +6,12 @@
 
 .form__fieldset {
     flex-basis: 650px;
-    background-color: hsl(207, 100%, 99%);
+    background-color: hsla(204, 100%, 99%, 0.940);
     border: none;
     border-radius: 18px;
     padding: 30px;
     margin: 10px 15px;
-    box-shadow: 2px 2px 10px #dedede;
+    box-shadow: 2px 2px 10px #424242;
 }
 
 .form__labelText {
