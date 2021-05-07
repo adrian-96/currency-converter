@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    margin: 0 auto;
     background-image: url("../images/background-image.png");
     background-position: center;
     background-attachment: fixed;
@@ -19,6 +18,7 @@ body {
 .header {
     text-align: center;
     color: rgb(61, 139, 202);
+    margin-bottom: 60px;
 }
 
 .button {
