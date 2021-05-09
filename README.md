@@ -11,6 +11,9 @@ This is a simple currency converter.
 3. Click on the "Przelicz" button
 4. The result will be displayed below
 
+## Preview
+![Currency-converter](https://github.com/adrian-96/currency-converter/blob/main/images/currency-converter.gif?raw=true)
+
 ## Technologies
 - HTML semantic
 - CSS
