@@ -3,8 +3,6 @@
         console.log("Witam developerów!");
     };
 
-    welcome();
-
     const calculateResult = (amount, currency) => {
         const rateEUR = 4.5811;
         const rateUSD = 3.7939;
@@ -28,7 +26,6 @@
 
     };
 
-    const formElement = document.querySelector(".js-form");
     const resultElement = document.querySelector(".js-result");
 
     const resetResultText = () => {
@@ -53,6 +50,8 @@
     };
 
     const init = () => {
+        welcome();
+        const formElement = document.querySelector(".js-form");
         formElement.addEventListener("submit", onFormSubmit);
         formElement.addEventListener("reset", resetResultText);
     };
